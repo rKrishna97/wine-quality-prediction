@@ -40,7 +40,7 @@ def predict(data):
 
 
 
-def get_schema(shema_path=schema_path):
+def get_schema(schema_path=schema_path):
     with open(schema_path) as json_file:
         schema = json.load(json_file)
     return schema
@@ -50,22 +50,22 @@ def validate_input(value_list, col):
    
     def _validate_values(val, col):
         schema = get_schema()
+        col = col.replace(" ","_")
         if not (schema[col]["min"] <= float(val) <=schema[col]["max"]):
             raise NotInRange
         
     def _validate_cols(col):
-        print("this is validate_cols")
         schema = get_schema()
         actual_cols = schema.keys()
         if col not in actual_cols:
             raise NotInCols 
-        
-    for val,column_name in zip(value_list,col):
-            _validate_values(val, column_name)
     
-    for col_name in col:
-        print(col)
-        _validate_cols(col_name)
+    for val,column_name in zip(value_list,col):
+        _validate_values(val, column_name)
+
+
+    for column_name in col:
+        _validate_cols(col=column_name)
    
     return True
 
@@ -84,7 +84,6 @@ def api_response(value_list, col):
             data = np.array([value_list])
             response = predict(data)
             response = {"response": response}
-            print(response)
             return response
 
     except Exception as e:
