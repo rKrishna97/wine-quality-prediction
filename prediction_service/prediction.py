@@ -47,7 +47,7 @@ def get_schema(shema_path=schema_path):
     return schema
 
 
-def validate_input(value_list, col):
+def validate_input_api(value_list, col):
     print("this is validate_input")
 
     def _validate_cols(col):
@@ -83,9 +83,45 @@ def validate_input(value_list, col):
     
     return True
 
+def validate_input_form(value_list, col):
+    print("this is validate_input")
+
+    def _validate_cols(col):
+        print("this is validate_cols")
+        schema = get_schema()
+        actual_cols = schema.keys()
+        if col not in actual_cols:
+            raise NotInCols
+
+    def _validate_values(value_list, col):
+        schema = get_schema()
+        # print(schema[col]["min"])
+        # print(dict_request[col][0])
+        # print(schema[col]["max"])
+        # print()
+        print(col)
+        print(f"min: {schema[col]['min']} val: {float(val)} max: {schema[col]['max']}")
+        
+        if not (schema[col]["min"] <= float(val) <=schema[col]["max"]):
+            raise NotInRange
+    
+    for val,column_name in zip(value_list,col):
+        print(f"col: {col} value: {value_list}")
+        print("this is for val,col_name")
+        _validate_values(val, column_name)  
+
+    for col_name in col:
+        print(col)
+        _validate_cols(col_name)
+    
+
+
+    
+    return True
+
 def form_response(value_list, col):
     print("this is form_response out")
-    if validate_input(value_list, col):
+    if validate_input_form(value_list, col):
         print("This is form_response")
         # data = dict_request.values()
         data = [list(map(float, value_list))]
@@ -100,7 +136,7 @@ def form_response(value_list, col):
 
 def api_response(value_list, col):
     try:
-        if validate_input(value_list, col):
+        if validate_input_api(value_list, col):
             data = np.array([value_list])
             response = predict(data)
             response = {"response": response}
