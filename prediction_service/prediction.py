@@ -72,10 +72,11 @@ def validate_input(value_list, col):
     
 
     for col_name in col:
-        print("this is for col_name")
+        print(col)
         _validate_cols(col_name)
     
     for val,column_name in zip(value_list,col):
+        print(f"col: {col} value: {value_list}")
         print("this is for val,col_name")
         _validate_values(val, column_name)
 

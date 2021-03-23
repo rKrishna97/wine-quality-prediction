@@ -50,11 +50,12 @@ def index():
                 data_req = request.form
                 data_req = dict(data_req)
                 col = data_req.keys()
-                data_req = data_req.values()
+                print(col)
+                value_list = data_req.values()
+                print(value_list)
+                data_req = [float(i[0]) for i in list(value_list)]
                 print(data_req)
-                data_req = [float(i[0]) for i in list(data_req)]
-                print(data_req)
-                response = prediction.form_response(value_list=data_req, col=col)
+                response = prediction.form_response(value_list=value_list, col=col)
                 return render_template("index.html", response=response)
 
             elif request.json:
