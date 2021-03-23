@@ -24,6 +24,7 @@ def index():
                 col = list(data_req.keys())
                 value_list = list(data_req.values())
                 value_list = [float(i[0]) for i in list(value_list)]
+                print(value_list)
                 response = prediction.form_response(value_list=value_list, col=col)
                 return render_template("index.html", response=response)
 
