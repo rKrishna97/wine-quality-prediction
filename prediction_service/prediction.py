@@ -86,6 +86,10 @@ def api_response(value_list, col):
             response = {"response": response}
             return response
 
-    except Exception as e:
+    except NotInRange as e:
         response = {"the_expected_range": get_schema(), "response": str(e)}
+        return response
+
+    except NotInCols as e:
+        response = {"response": str(e)}
         return response
