@@ -25,7 +25,7 @@ def index():
                 value_list = list(data_req.values())
                 value = []
                 for i in value_list:
-                    value.append(i)
+                    value.append(i[0])
                 response = prediction.form_response(value_list=value, col=col)
                 return render_template("index.html", response=response)
 
