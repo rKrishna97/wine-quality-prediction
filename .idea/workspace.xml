@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0df143c1-d7fa-4e2f-9e25-9c48836e567f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.dvc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvc/config" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvc/plots/confusion.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/plots/confusion.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvc/plots/confusion_normalized.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/plots/confusion_normalized.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvc/plots/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/plots/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvc/plots/linear.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/plots/linear.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvc/plots/scatter.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/plots/scatter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvc/plots/smooth.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dvc/plots/smooth.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dvcignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dvcignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/dist/src-0.0.1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/dist/src-0.0.1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/log/GLOB-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/log/GLOB-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_given/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/data_given/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_given/winequality.csv.dvc" beforeDir="false" afterPath="$PROJECT_DIR$/data_given/winequality.csv.dvc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src-0.0.1-py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src-0.0.1-py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src-0.0.1.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src-0.0.1.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dvc.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dvc.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dvc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/schema_in-checkpoint.json" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/schema_in-checkpoint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/schema_in.json" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/schema_in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/params.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prediction_service/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_service/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prediction_service/model/model.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_service/model/model.joblib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prediction_service/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_service/prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prediction_service/schema_in.json" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_service/schema_in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/params.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/params.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/scores.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/scores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/src.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/load_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/split_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/split_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train_and_evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train_and_evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/schema_in.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/schema_in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/sctipt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/sctipt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rLsvDZAgfrfAzOmR6utlMcpjyS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wine-quality-prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0df143c1-d7fa-4e2f-9e25-9c48836e567f" name="Default Changelist" comment="" />
+      <created>1618766934614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618766934614</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

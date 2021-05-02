@@ -25,7 +25,7 @@ def index():
                 value_list = list(data_req.values())
                 value = []
                 for i in value_list:
-                    value.append(i[0])
+                    value.append(float(i))
                 response = prediction.form_response(value_list=value, col=col)
                 return render_template("index.html", response=response)
 
@@ -37,10 +37,11 @@ def index():
                 return jsonify(response)
 
         except Exception as e:
-            error = {"error":e}
+            error = {"error": e}
             return render_template("404.html", error=error)
     else:
         return render_template("index.html")
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
